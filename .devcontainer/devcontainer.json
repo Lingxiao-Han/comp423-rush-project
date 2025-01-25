@@ -1,0 +1,11 @@
+{
+    "name": "comp423-rust-project",
+    "image": "mcr.microsoft.com/devcontainers/rust:latest",
+    "customizations": {
+      "vscode": {
+        "settings": {},
+        "extensions": ["rust-lang.rust-analyzer"]
+      }
+    },
+    "postCreateCommand": "cargo new Hello-World --bin --vcs none"
+  } 
